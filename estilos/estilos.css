@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800,900');
+
+html{
+    font-family: 'Raleway',sans-serif;
+}
+
+header, main, footer, body {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+header, main, footer, body {
+    padding-left: 0;
+    }
+}
+
+h1{
+    margin-top: 0px;
+}
+
+.row{
+    padding: 0px; 
+    margin: 0px;   
+}
+
+.fondo{
+    background-image: url(../img/fondo.jpg);
+    
+}
+
+.table-of-contents a.active {
+    font-weight: 500;
+    padding-left: 18px;
+    border-left: 8px solid #2196f3;
+  }
+
+.fondo-dp{
+    background: #2f5975;
+}
+
+.fondo-habilidades{
+    background:  #cc3333;
+}
+
+.fondo-estudios{
+    background: #00B233;
+}
+
+.fondo-experiencia{
+    background: #ff9933;
+}
+
+tr{
+    border-bottom: none;
+}
+
+.table-of-contents a:hover{
+    color: blue;
+    padding-left: 15px;
+    border-left: 8px solid red;
+}
+
+th{
+    text-align: right;
+    width: 50%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+td{
+    text-align: left;
+    font-size: 25px;
+}
+
+.chart{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+h1{
+    font-weight: 600;
+}
+
+
+
+/* label color */
+.input-field label {
+    color: white;
+}
+ 
+  /* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 0 white;
+}
+
+.input-field input:focus + label {
+    color: white !important;
+  }
+
+.row .input-field input:focus {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white !important;
+  }
+
+  textarea:focus{  
+    border-bottom: 1px solid white !important;
+    -webkit-box-shadow: 0 1px 0 0 white !important;
+    -moz-box-shadow: 0 1px 0 0 white !important;
+    box-shadow: 0 1px 0 0 white !important;
+  }
+
+  .input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+    color: white !important;
+   }
